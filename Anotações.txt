@@ -1,0 +1,39 @@
+Um bom site para ver a documentação HTML é https://www.w3schools.com/html/html_intro.asp
+
+Um bom site para ver a documentação CSS é https://www.w3schools.com/css/
+
+Existe da tag h1 até a h6
+
+<img src="html.png" alt="Logo do HTML5"> -> A propriedade alt é para que seja possível mostrar que esse item é uma imagem e qual imagem é, para pessoas que utilizam o leitor de tela ou se a imagem quebre na exibição mostrar o que deveria conter naquele espaço
+
+ul - lista não ordenada
+ol - lista ordenada
+li - itens da lista
+
+header - parte de cima da tela
+main - parte do meio ou principal da tela
+footer - parte de baixo da tela
+
+semanticamente a tag button é mais utilizada para submeter formularios ou coisas do tipo, para enviar o usuário para outra página é utilizado <a>
+
+para linkar o html com o css é só adicionar <link rel="stylesheet" href="style.css"> na tag head
+
+No css color representa a cor do texto já background-color representa a cor de fundo
+
+Site para escolha de cores https://color.adobe.com/pt/create/color-wheel
+outra opção é https://colorhunt.co/
+
+Um jeito de dar nomes para classes no css https://www.alura.com.br/artigos/nomes-de-classes-no-css
+
+O reset CSS https://www.alura.com.br/artigos/o-que-e-reset-css
+
+no CSS o * seleciona todas as tags então se quiser aplicar algo globalmente é só:
+*{
+    padding: 0px;
+}
+
+Guia para utilização do flexbox https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+Lugar para pegar fontes: https://fonts.google.com/
+
+divs são utilizadas em coisas menores e mais especificas, como agrupar dois botões, para coisas mais abaranjentes é melhor usar a section
