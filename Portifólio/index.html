@@ -5,13 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio</title>
-  <!--  <link rel="stylesheet" href="reset.css"> vem primeiro-->
-    <link rel="stylesheet" href="style.css">
+  <!--  <link rel="stylesheet" href="styles/reset.css"> vem primeiro-->
+    <link rel="stylesheet" href="styles/style.css">
     
 </head>
 <body>
 
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a href="index.html" class="cabecalho__menu__link">Home</a>
+            <a href="about.html" class="cabecalho__menu__link">Sobre mim</a>
+        </nav>
+    </header>
 
     <main class="apresentacao">
 
@@ -23,16 +28,32 @@
             </p>
 
             <div class="apresentacao__conteudo__links">
-                <a href="https://www.instagram.com/romonastero_/" class="apresentacao__conteudo__links__link">Instagram</a>
-                <a href="https://github.com/RoMonastero" class="apresentacao__conteudo__links__link">GitHub</a>
+                <h2 class="apresentacao__conteudo__links__subtitulo">Acesse minhas redes</h2>
+
+                <a href="https://github.com/RoMonastero" class="apresentacao__conteudo__links__link">
+                    <img src="assets/Logo Github.png" alt="Logo Github">
+                    GitHub
+                </a>  
+                <a href="https://www.linkedin.com/in/rodrigo-monastero-13bab61a4/" class="apresentacao__conteudo__links__link">
+                    <img src="assets/Logo linkedin.png" alt="Logo linkedin">
+                    Linkedin
+                </a>
+
+                <a href="https://www.twitch.tv/unclejonas17" class="apresentacao__conteudo__links__link">
+                    <img src="assets/Logo Twitch.png" alt="Logo Twitch">
+                    Twitch
+                </a>
+                
             </div>
             
 
         </section>
-        <img src="imagem.png" alt="Foto da Joana Programando">
+        <img src="assets/imagem.png" alt="Foto da Joana Programando">
     </main>
 
-    <footer></footer>
+    <footer class="rodape">
+        <p>Desenvolvido por Alura.</p>
+    </footer>
 
 
 </body>

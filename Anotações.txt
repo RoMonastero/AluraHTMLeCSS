@@ -37,3 +37,33 @@ Guia para utilização do flexbox https://css-tricks.com/snippets/css/a-guide-to
 Lugar para pegar fontes: https://fonts.google.com/
 
 divs são utilizadas em coisas menores e mais especificas, como agrupar dois botões, para coisas mais abaranjentes é melhor usar a section
+
+Comentario em html <!-- Isso é um comentário e será ignorado  -->
+
+Comentario em css  /* Isso é um comentário em CSS */
+
+Imagens ficam na pasta assets
+
+tag nav para fazer a navegação do header
+
+para criar duas tags iguais uma em seguida da outra é só utilizar p*2
+
+Segurando alt e clicando em outra linha do código é possivel escrever em mais de uma linha de uma vez
+
+Documentação variaveis em CSS https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_cascading_variables/Using_CSS_custom_properties
+
+para criar uma variavel globalmente no css é só utilizar
+
+:root{
+    --cor-primaria: #000000;
+    --cor-secundaria: #F6F6F6;
+    --cor-terciaria: #22D4FD;
+}
+
+e para utilizar
+
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: #F6F6F6;
+}
