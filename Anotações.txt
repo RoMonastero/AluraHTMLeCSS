@@ -67,3 +67,21 @@ body{
     background-color: var(--cor-primaria);
     color: #F6F6F6;
 }
+
+Para medidas relativas é melhorar utilizar o rem do que o pixel -> 16px = 1rem
+
+Para fazer a tela mudar os elementos conforme muda de tamanho é só usar o @media
+
+@media (max-width: 600px)
+{
+  .facet_sidebar
+   {
+    display: none;
+   }
+}
+
+flex-direction: column-reverse; - muda a ordem dos elementos (funciona com row-reverse tambem)
+
+O Ideal é criar repositorios com letra minuscula
+
+Vercel é um bom lugar para hospedar o site, para que outras pessoas utilizem o que foi desenvolvido de forma gratuita
